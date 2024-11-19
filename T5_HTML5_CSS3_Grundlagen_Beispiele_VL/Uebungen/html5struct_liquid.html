@@ -1,0 +1,88 @@
+<!--
+Grundlagen der Medieninformatik WS2425
+		Multimediatechnik
+Digitale Medienproduktion DMP B1
+HTML und CSS Grundlagen - html5struct_liquid.html -
+Vorlesung Beispiele
+        -->
+<!DOCTYPE html>
+
+<html> 
+
+    <head> 
+        <meta charset="UTF-8">
+	    
+		<title>Eine Beispieldatei zu CSS Layout</title>
+    
+	<style> 
+ header { 
+ background-color:lightgreen; 
+ height:20%; 
+ width:100%; 
+ position:absolute; 
+ left:0%; 
+ top:0%; 
+} 
+nav { 
+ height:70%; 
+ width:20%; 
+ background-color:lightgrey; 
+  position:absolute; 
+ top:20%; 
+ left:0%; 
+} 
+#main { 
+ background-color:yellow; 
+ position:absolute; 
+ height:70%; 
+ width:80%; 
+ left:20%; 
+ top:20%; 
+} 
+
+footer { 
+ background-color:pink; 
+ height:10%; 
+ width:100%; 
+ position:absolute; 
+ top:90%; 
+ left:0%; 
+}
+header h1 { 
+ font-size:2em; 
+ position:relative; 
+ left:20% auto;
+} 
+#main h1 { 
+ font-size:1.5em; 
+}
+
+
+</style>
+</head> 
+	<body>
+		<header>
+			<h1>Einfache CSS Layout float</h1>
+		</header>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		
+		<section id="main">
+			<h1>This is the main content area of the page</h1>
+			<article>
+				<p>This is the first content article</p>
+			</article>
+			<article>
+				<p>This is the second content article</p>
+			</article>
+		</section>
+		<footer>
+			<p>Marcos Martinez, Hochschule Bremerhaven, 2024</p>
+		</footer>
+	</body>
+
+</html>

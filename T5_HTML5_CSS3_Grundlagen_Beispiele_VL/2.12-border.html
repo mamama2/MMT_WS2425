@@ -1,0 +1,42 @@
+<!--Grundlagen der Medieninformatik WS2425
+		Multimediatechnik - Digitale Medienproduktion DMP B1
+HTML und CSS Grundlagen - Borders - Vorlesung Beispiele-->
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>DMP @ HS-BREMERHAVEN - Meine Webseite CSS</title>
+
+    <style type="text/css">
+      .square {
+        width: 100px;
+        height: 100px;
+        margin: 40px;
+        float: left;
+      }
+
+      #square-red {
+        background-color: red;
+        border: 5px black double;
+      }
+
+      #square-blue {
+        background-color: blue;
+        border-style: ridge solid dotted dashed;
+        border-color: green yellow red aqua;
+        border-width: 10px 5px 2px 1px;
+      }
+
+      #square-green {
+        background-color: green;
+        border-radius: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="square-red" class="square"></div>
+
+    <div id="square-blue" class="square"></div>
+
+    <div id="square-green" class="square"></div>
+  </body>
+</html>

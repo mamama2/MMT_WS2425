@@ -1,0 +1,15 @@
+
+//Grundlagen der Medieninformatik WS2425
+//		Multimediatechnik
+//Digitale Medienproduktion DMP B1
+//HTML und CSS Grundlagen - styles.css -
+//Vorlesung Beispiele
+      
+p {
+    font-family:Verdana; 
+    font-size:16pt
+}
+h1 {
+    font-family:Times; 
+    color:green;
+}
